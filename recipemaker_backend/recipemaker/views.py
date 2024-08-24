@@ -4,7 +4,7 @@ from rest_framework.decorators import api_view
 from rest_framework.response import Response
 import google.generativeai as genai
 
-GEMINI_API_KEY='AIzaSyD3NrNXXZqhcEW7Qr4S0j9EdYdwNbGobwE'
+GEMINI_API_KEY='YOUR_GEMINI_API_KEY'
 @api_view(['POST'])
 def get_recipe_recommendations(request):
     # Get the list of ingredients and cuisine type from the request
